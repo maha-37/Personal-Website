@@ -10,7 +10,6 @@
 
 :root {
     --mainColor: #BC4F92;
-    --secondColor: #FFE6E6;
     --pragraColor: #8d8a8a;
 }
 
@@ -517,9 +516,6 @@ button:hover {
     border: 1px solid var(--pragraColor);
 }
 
-
-
-
 .contact-form textarea {
     width: 500px;
     height: 200px;
@@ -535,6 +531,26 @@ button:hover {
     border: 1px solid var(--pragraColor);
 }
 
+.contact-form button {
+    width: 100px;
+    height: 40px;
+    margin-left: 230px;
+    border: 1px solid var(--pragraColor);
+    background-color: var(--mainColor);
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+
+}
+
+.contact-form button:hover {
+    transform: scale(1.1);
+}
+
+.contact-form button:focus {
+    background-color: transparent;
+    color: var(--mainColor);
+}
 
 .contact-container .icon i {
     font-size: 7rem;
